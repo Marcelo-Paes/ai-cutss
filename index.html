@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Cuts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div class="hero">
+    <b>✂️ AI Cuts</b>
+    <h1>Transforme vídeos longos em cortes</h1>
+    <p>Envie um vídeo e gere cortes automaticamente.</p>
+  </div>
+
+  <section>
+    <label for="video">Vídeo</label>
+    <input id="video" type="file" accept="video/mp4,video/webm,video/quicktime,video/*">
+    <p class="hint">Para o teste, use um vídeo curto (1–5 minutos).</p>
+
+    <label for="amount">Quantidade</label>
+    <select id="amount">
+      <option value="5">5</option>
+      <option value="10" selected>10</option>
+      <option value="30">30</option>
+    </select>
+
+    <button id="generate" type="button">GERAR CORTES</button>
+
+    <div id="status"></div>
+    <div id="results"></div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
