@@ -1,6 +1,0 @@
-fastapi
-uvicorn[standard]
-yt-dlp
-faster-whisper
-openai
-python-multipart
